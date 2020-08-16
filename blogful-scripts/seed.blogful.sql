@@ -1,0 +1,25 @@
+INSERT INTO blogful_articles (title, content, date_published)
+VALUES 
+('Title 1', 'Content, this is content',  now() - '21 days'::INTERVAL),
+('Title 2', 'This Content',  now() - '20 days'::INTERVAL),
+('Title 3', '',  now() - '19 days'::INTERVAL),
+('Title 4', 'Content, content',  now() - '18 days'::INTERVAL),
+('Title 5', 'this is content',  now() - '17 days'::INTERVAL),
+('Title 6', '',  now() - '16 days'::INTERVAL),
+('Title 7', 'content',  now() - '15 days'::INTERVAL),
+('Title 8', 'this',  now() - '14 days'::INTERVAL),
+('Title 9', 'is content',  now() - '13 days'::INTERVAL),
+('Title 10', 'C O N T E N T',  now() - '12 days'::INTERVAL),
+('Title 11', '',  now() - '11 days'::INTERVAL),
+('Title 12', 'Content CONTENT',  now() - '10 days'::INTERVAL),
+('Title 13', 'MERP',  now() - '9 days'::INTERVAL),
+('Title 14', 'Blog Blog Blog Content',  now() - '8 days'::INTERVAL),
+('Title 15', '',  now() - '7 days'::INTERVAL),
+('Title 16', 'CON',  now() - '6 days'::INTERVAL),
+('Title 17', 'TENT',  now() - '5 days'::INTERVAL),
+('Title 18', '',  now() - '4 days'::INTERVAL),
+('Title 19', 'Content, this is content',  now() - '3 days'::INTERVAL),
+('Title 20', 'this is content, this is content',  now() - '2 days'::INTERVAL),
+('Title 21', 'Oh and the content is',  now() - '1 days'::INTERVAL),
+('Title 22', 'This is content and content is this',  now())
+;
